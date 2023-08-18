@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Whiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="./static/css/main.css" rel="stylesheet" />
+</head>
+<body>
+<!--
+    <div class="v122_2">
+         <div class="v122_3"></div>
+         <span class="v122_4">ORDER SUMMARY</span>
+
+        <div id="divSummary" />
+         <div class="v122_291"></div>
+      </div>
+
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <p class="bot-message">Welcome to the Chatbot!</p>
+        </div>
+        <button id="record-btn" class="record-btn">Press When you are ready to order :)</button>
+    </div>
+-->
+    <div class="v159_2">
+        <div class="v159_3"></div>
+        <div id="orderContainer"></div>
+        <div class="v159_4"></div>
+        <div id="divSummary">
+            <span class="v159_37">ORDER SUMMARY</span>
+        </div>
+        <div class="v159_241"></div>
+    </div>
+    <!--
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <p class="bot-message">Welcome to the Chatbot!</p>
+        </div>
+        <button id="record-btn" class="record-btn">Press When you are ready to order :)</button>
+    </div>
+    -->
+    <img src="../static/images/v159_244.png" class="mic" id="record-btn"/>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
